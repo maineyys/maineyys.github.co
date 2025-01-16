@@ -1,0 +1,237 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    background: #F0F0F0;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F0F0F0;
+    scroll-snap-align: start;
+}
+
+#container{
+    width: 960px;
+    height: 540px;
+    padding: 20px;
+    background: #fffbf2;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#character{
+    width:360px;
+    height:540px;
+    align-items: left;
+}
+
+#column1 {
+    margin-right: 40px;
+    align-self: flex-start;  /* Align the image to the left */
+}
+
+h1 {
+    font-family: 'DM Serif Text', sans-serif;
+    font-size: 2.8em;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #393026;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #393026;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#column3{
+    padding-left: 20px;
+}
+
+#column4 {
+    padding-top: -150px;
+}
+
+#link a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1.3em;
+
+
+}
+
+#hero a {
+    color: black;
+    text-transform: uppercase;
+    background: #ccd5ae;
+    border-radius: 50px;
+    padding: 15px 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+#content {
+    width: 960px;
+    height: 540px;
+    padding: 20px;
+    background: #fffbf2;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#lesson {
+    width: 960px;
+    height: 540px;
+    padding: 20px;
+    background: #fffbf2;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#column6 {
+    max-width: 100%;
+    height: auto;
+}
+
+#column5 {
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+}
+#column7 {
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+}
+
+#column8 {
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+#column9 {
+    flex: 1;
+    text-align: right;
+    margin-left: 20px;
+}
+#column10 {
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    kerning: 2em;
+    color: #393026;
+    text-align: center;
+}
+
+button {
+    background-color: #ccd5ae;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+button:hover, #hero a:hover {
+    background-color: #b0b894;
+}
+
+/* Quiz Section Styles */
+#quiz-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#question {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    color: #393026;
+}
+
+#answers {
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#answers label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #393026;
+}
+
+#timer {
+    font-size: 1.2em;
+    padding: 20px;
+    color: #393026;
+}
+
+#score {
+    font-size: 1.5em;
+    color: #393026;
+    padding-top: 20px;
+}
+
+#navigation #content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#navigation button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    background-color: #ccd5ae;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#navigation button:hover {
+    background-color: #b0b894;
+}
